@@ -5,13 +5,20 @@ body {
     padding: 0;
     background: #f4f4f4;
     color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
 }
 
 header {
     background: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px;
     text-align: center;
+    width: 100%;
 }
 
 header h1 {
@@ -29,13 +36,13 @@ header p {
 }
 
 .icon-link:hover {
-    color: #007BFF; /* Icon hover color */
+    color: #607a96; /* Icon hover color */
 }
 
 .resume-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #e6eaed; /* Button background color */
+    background-color: #0f0f10; /* Button background color */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -44,7 +51,7 @@ header p {
 }
 
 .resume-button:hover {
-    background-color: #f3f4f5; /* Button hover background color */
+    background-color: #707275; /* Button hover background color */
 }
 
 section {
@@ -53,6 +60,7 @@ section {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
 }
 
 h2 {
