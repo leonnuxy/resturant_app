@@ -10,7 +10,6 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    text-align: center;
 }
 
 header {
@@ -25,24 +24,20 @@ header h1 {
     font-size: 2.5em;
 }
 
-header p {
-    margin: 5px 0;
-}
-
 .icon-link {
-    color: #fff; /* Icon color */
+    color: #fff;
     margin-right: 10px;
     text-decoration: none;
 }
 
 .icon-link:hover {
-    color: #607a96; /* Icon hover color */
+    color: #007BFF;
 }
 
 .resume-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0f0f10; /* Button background color */
+    background-color: #007BFF;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -51,10 +46,10 @@ header p {
 }
 
 .resume-button:hover {
-    background-color: #707275; /* Button hover background color */
+    background-color: #0056b3;
 }
 
-section {
+.main-card {
     padding: 20px;
     margin: 20px;
     background: #fff;
@@ -63,8 +58,17 @@ section {
     width: 80%;
 }
 
+.experience-card, .project-card {
+    padding: 15px;
+    margin: 15px 0;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
 h2 {
     color: #007BFF;
+    text-align: center;
 }
 
 h3 {
@@ -74,8 +78,14 @@ h3 {
 ul {
     list-style-type: none;
     padding: 0;
-}
-
-li {
+    }
+    
+    li {
     padding: 5px 0;
-}
+    }
+    
+    .experience-card h3, .project-card h3 {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+    color: #007BFF;
+    }
