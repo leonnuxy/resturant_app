@@ -35,7 +35,7 @@ header p {
 .resume-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF; /* Button background color */
+    background-color: #e6eaed; /* Button background color */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -44,7 +44,7 @@ header p {
 }
 
 .resume-button:hover {
-    background-color: #0056b3; /* Button hover background color */
+    background-color: #f3f4f5; /* Button hover background color */
 }
 
 section {
