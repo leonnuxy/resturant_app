@@ -1,91 +1,126 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f4f4f4;
-    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 header {
-    background: #333;
-    color: #fff;
-    padding: 20px;
     text-align: center;
-    width: 100%;
+    margin-bottom: 20px;
 }
 
 header h1 {
     font-size: 2.5em;
+    margin-bottom: 0;
 }
 
 .icon-link {
-    color: #fff;
-    margin-right: 10px;
+    color: #333;
     text-decoration: none;
-}
-
-.icon-link:hover {
-    color: #007BFF;
+    margin: 0 10px;
 }
 
 .resume-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #007bff;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 10px;
-    font-size: 1.2em;
 }
 
-.resume-button:hover {
-    background-color: #0056b3;
+.resume-button i {
+    margin-left: 5px;
 }
 
-.main-card {
+main {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: white;
     padding: 20px;
-    margin: 20px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
-.experience-card, .project-card {
-    padding: 15px;
-    margin: 15px 0;
-    background: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+.about-me-card,
+.education-card,
+.skills-card {
+    flex: 1;
+    margin: 0 10px;
 }
 
-h2 {
-    color: #007BFF;
-    text-align: center;
+.experience-card {
+    margin-bottom: 20px;
 }
 
-h3 {
-    color: #333;
+.experience-card h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+.experience-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.experience-card ul li {
+    margin-bottom: 10px;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
     }
     
-    li {
-    padding: 5px 0;
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
     }
-    
-    .experience-card h3, .project-card h3 {
-    margin-bottom: 5px;
-    font-size: 1.2em;
-    color: #007BFF;
-    }
+}
