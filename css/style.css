@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background: #f4f4f4;
+    color: #333;
 }
 
 header {
@@ -14,22 +15,51 @@ header {
 }
 
 header h1 {
-    margin: 0;
-    font-size: 24px;
+    font-size: 2.5em;
 }
 
 header p {
-    margin: 0;
+    margin: 5px 0;
+}
+
+.icon-link {
+    color: #fff; /* Icon color */
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.icon-link:hover {
+    color: #007BFF; /* Icon hover color */
+}
+
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Button background color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.resume-button:hover {
+    background-color: #0056b3; /* Button hover background color */
 }
 
 section {
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
     background: #fff;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
+    color: #007BFF;
+}
+
+h3 {
     color: #333;
 }
 
@@ -38,9 +68,6 @@ ul {
     padding: 0;
 }
 
-ul li {
-    background: #f4f4f4;
-    margin: 5px 0;
-    padding: 10px;
-    border-left: 4px solid #333;
+li {
+    padding: 5px 0;
 }
