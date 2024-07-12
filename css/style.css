@@ -114,6 +114,18 @@ footer {
     color: white;
 }
 
+.theme-a {
+    background: #dca;
+    color: #731;
+  }
+  @media (prefers-color-scheme: dark) {
+    .theme-a.adaptive {
+      background: #753;
+      color: #dcb;
+      outline: 5px dashed #000;
+    }
+}
+
 @media (max-width: 768px) {
     .card-container {
         flex-direction: column;
