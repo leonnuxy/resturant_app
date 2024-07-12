@@ -7,8 +7,8 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #685439;
-    color: #333;
+    background-color: #121212;
+    color: #e0e0e0;
 }
 
 header {
@@ -19,10 +19,11 @@ header {
 header h1 {
     font-size: 2.5em;
     margin-bottom: 0;
+    color: #bb86fc;
 }
 
 .icon-link {
-    color: #333;
+    color: #bb86fc;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -30,13 +31,13 @@ header h1 {
 .resume-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
+    background-color: #bb86fc;
+    color: #121212;
     text-decoration: none;
     border-radius: 5px;
 }
 
-.resume-button i {
+resume-button i {
     margin-left: 5px;
 }
 
@@ -50,14 +51,14 @@ main {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    background: #dca;
-    color: #731;
+    background: #1f1f1f;
+    color: #e0e0e0;
 }
 
 .card {
-    background: white;
+    background: #2b2b2b;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
 }
 
@@ -75,12 +76,13 @@ main {
 .experience-card h3 {
     margin-top: 0;
     font-size: 1.2em;
-    color: #007bff;
+    color: #bb86fc;
 }
 
 .experience-card ul {
     list-style-type: disc;
     padding-left: 20px;
+    color: #e0e0e0;
 }
 
 .experience-card ul li {
@@ -90,6 +92,7 @@ main {
 ul {
     list-style-type: none;
     padding: 0;
+    color: #e0e0e0;
 }
 
 ul li {
@@ -97,43 +100,31 @@ ul li {
 }
 
 section h2 {
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #bb86fc;
     padding-bottom: 10px;
     margin-bottom: 20px;
     font-size: 1.5em;
-    color: #007bff;
+    color: #bb86fc;
 }
 
 section p {
     line-height: 1.6;
+    color: #e0e0e0;
 }
 
 footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: #007bff;
-    color: white;
+    background-color: #bb86fc;
+    color: #121212;
 }
-
-/* .theme-a {
-    background: #dca;
-    color: #731;
-  }
-  @media (prefers-color-scheme: dark) {
-    .theme-a.adaptive {
-      background: #753;
-      color: #dcb;
-      outline: 5px dashed #000;
-    }
-} */
 
 @media (max-width: 768px) {
     .card-container {
         flex-direction: column;
-        background: #753;
-        color: #dcb;
-        outline: 5px dashed #000;
+        background: #1f1f1f;
+        color: #e0e0e0;
     }
     
     .card {
