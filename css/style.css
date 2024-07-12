@@ -62,15 +62,14 @@ main {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
-    flex: 2;
+    width: 30%; /* Set the width of each card to 30% */
     margin: 0 10px; /* To provide spacing between cards */
 }
 
-/* All Cards Stacked */
 .about-me-card,
 .education-card,
 .skills-card {
-    flex: 1;
+    width: 30%; /* Ensure each card has the same width */
     margin: 0 10px;
 }
 
