@@ -19,11 +19,11 @@ header {
 header h1 {
     font-size: 2.5em;
     margin-bottom: 0;
-    color: #bb86fc;
+    color: #e0e0e0;
 }
 
 .icon-link {
-    color: #bb86fc;
+    color: #f9f7fb;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -31,7 +31,7 @@ header h1 {
 .resume-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #bb86fc;
+    background-color: #e0e0e0;
     color: #121212;
     text-decoration: none;
     border-radius: 5px;
