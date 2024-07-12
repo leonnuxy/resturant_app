@@ -62,9 +62,8 @@ main {
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
-    flex: 1;
+    flex: 200px;
     margin: 0 10px; /* To provide spacing between cards */
-    max-width: calc(33.33% - 20px); /* Adjusting the width to be 20% smaller */
 }
 
 /* All Cards Stacked */
