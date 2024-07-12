@@ -50,6 +50,8 @@ main {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    background: #dca;
+    color: #731;
 }
 
 .card {
@@ -114,7 +116,7 @@ footer {
     color: white;
 }
 
-.theme-a {
+/* .theme-a {
     background: #dca;
     color: #731;
   }
@@ -124,15 +126,18 @@ footer {
       color: #dcb;
       outline: 5px dashed #000;
     }
-}
+} */
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     .card-container {
         flex-direction: column;
+        background: #753;
+        color: #dcb;
+        outline: 5px dashed #000;
     }
     
     .card {
         width: 100%;
         margin-bottom: 20px;
     }
-} */
+}
