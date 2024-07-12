@@ -70,7 +70,7 @@ main {
 .about-me-card,
 .education-card,
 .skills-card {
-    flex: 1;
+    flex: 200px;
     margin: 0 10px;
 }
 
