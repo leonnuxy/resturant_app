@@ -143,6 +143,14 @@ section p {
     color: #e0e0e0;
 }
 
+.project-card {
+    background-color: #827e7e55;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
 footer {
     text-align: center;
     margin-top: 20px;
