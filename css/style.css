@@ -73,25 +73,6 @@ main {
     margin: 0 10px;
 }
 
-/* .experience-card {
-    margin-bottom: 20px;
-}
-
-.experience-card h3 {
-    margin-top: 0;
-    font-size: 1.2em;
-    color: #e0e0e0;
-}
-
-.experience-card ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    color: #e0e0e0;
-}
-
-.experience-card ul li {
-    margin-bottom: 10px;
-} */
 .experience-card {
     background-color: #827e7e55;
     border: 1px solid #ddd;
