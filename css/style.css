@@ -131,10 +131,6 @@ section p {
     margin: 20px;
 }
 
-section {
-    flex: 1 1 100%;
-}
-
 .project-card {
     background-color: #827e7e55;
     border: 1px solid #ddd;
