@@ -71,7 +71,7 @@ main {
 }
 
 .education-card {
-    width: 25%; /* 50% less than about-me-card and skills-card */
+    width: 30%; /* 50% less than about-me-card and skills-card */
 }
 
 @media (max-width: 768px) {
