@@ -170,8 +170,8 @@ section p {
     padding: 20px;
     font-family: 'Arial', sans-serif;
     color: #e0e0e0;
-    width: 75%; /* Adjust this value as needed */
-    max-width: 800px; /* Optional: to limit the max width */
+    width: 80%; /* Adjust this value as needed */
+    max-width: 900px; /* Optional: to limit the max width */
     box-sizing: border-box; /* Ensures padding is included in the width calculation */
 }
 
