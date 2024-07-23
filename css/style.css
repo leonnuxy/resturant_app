@@ -200,13 +200,13 @@ section p {
     font-weight: bold;
 }
 
-footer {
+/* footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px;
     background-color: #e0e0e0;
     color: #121212;
-}
+} */
 
 /* @media (max-width: 768px) {
     .card-container {
