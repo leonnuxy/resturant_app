@@ -170,9 +170,9 @@ section p {
     padding: 20px;
     font-family: 'Arial', sans-serif;
     color: #e0e0e0;
-    width: 95%; /* Adjust this value as needed */
-    /* max-width: 1000px;  Optional: to limit the max width */
-    box-sizing: border-box;
+    width: 100%; /* Adjust this value as needed */
+    max-width: 1030px;
+    /* box-sizing: border-box; */
 }
 
 .certification-card h2 {
@@ -190,7 +190,7 @@ section p {
 }
 
 .certification-card li {
-    font-size: 0.5em;
+    font-size: 0.85em;
     line-height: 1.6;
     color: #e0e0e0;
     margin-bottom: 10px;
