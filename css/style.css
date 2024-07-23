@@ -172,7 +172,7 @@ section p {
     color: #e0e0e0;
     width: 100%; /* Adjust this value as needed */
     max-width: 1000px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 .certification-card h2 {
@@ -190,7 +190,7 @@ section p {
 }
 
 .certification-card li {
-    font-size: 0.95em;
+    font-size: 1em;
     line-height: 1.6;
     color: #e0e0e0;
     margin-bottom: 10px;
