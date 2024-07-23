@@ -170,8 +170,8 @@ section p {
     padding: 20px;
     font-family: 'Arial', sans-serif;
     color: #e0e0e0;
-    width: 90%; /* Adjust this value as needed */
-    max-width: 1000px; /* Optional: to limit the max width */
+    width: 95%; /* Adjust this value as needed */
+    /* max-width: 1000px;  Optional: to limit the max width */
     /* box-sizing: border-box; Ensures padding is included in the width calculation */
 }
 
@@ -190,7 +190,7 @@ section p {
 }
 
 .certification-card li {
-    font-size: 1em;
+    font-size: 0.5em;
     line-height: 1.6;
     color: #e0e0e0;
     margin-bottom: 10px;
@@ -214,7 +214,7 @@ section p {
     }
 
     .certification-card li {
-        font-size: 0.5em;
+        font-size: 0.3em;
         margin-bottom: 8px;
     }
 }
