@@ -171,7 +171,7 @@ section p {
     font-family: 'Arial', sans-serif;
     color: #e0e0e0;
     width: 90%; /* Adjust this value as needed */
-    max-width: 900px; /* Optional: to limit the max width */
+    max-width: 1000px; /* Optional: to limit the max width */
     /* box-sizing: border-box; Ensures padding is included in the width calculation */
 }
 
