@@ -56,28 +56,34 @@ main {
     color: #e0e0e0;
 }
 
-/* Making sure each card takes an equal amount of space */
 .card {
     background: #2b2b2b;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
-    width: 30%; /* Set the width of each card to 30% */
     margin: 0 10px; /* To provide spacing between cards */
 }
 
+/* Specific widths for each card */
 .about-me-card,
-.education-card,
 .skills-card {
-    width: 30%; /* Ensure each card has the same width */
-    margin: 0 10px;
+    width: 45%; /* Reduced width to balance the larger education card */
 }
 
 .education-card {
-    width: 10%; /* Ensure each card has the same width */
-    margin: 0 10px;
+    width: 25%; /* 50% less than about-me-card and skills-card */
 }
 
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
 
 .experience-card {
     padding: 10px;
