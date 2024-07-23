@@ -172,7 +172,7 @@ section p {
     color: #e0e0e0;
     width: 80%; /* Adjust this value as needed */
     max-width: 900px; /* Optional: to limit the max width */
-    box-sizing: border-box; /* Ensures padding is included in the width calculation */
+    /* box-sizing: border-box; Ensures padding is included in the width calculation */
 }
 
 .certification-card h2 {
