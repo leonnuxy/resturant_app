@@ -49,6 +49,17 @@ main {
 }
 
 /* Container for about-me, education, and skills cards */
+/* General card styling */
+.intro-card {
+    background-color: #827e7e55;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    flex: 1 1 calc(33.333% - 40px); /* 3 cards per row with 20px gap */
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -56,16 +67,20 @@ main {
     margin: 20px 0;
 }
 
-.intro-card {
-    background: #827e7e55;
-    padding: 20px;
-    border-radius: 8px;
-    /* margin: 0 10px; /* To provide spacing between cards */
-    flex: 1 1 calc(25% - 40px); /* 4 cards per row with 20px gap */
-    box-sizing: border-box;
+.intro-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #e0e0e0;
 }
 
+.intro-card p, .intro-card ul, .intro-card li {
+    font-size: 1em;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
 
+/* Responsive design */
 @media (max-width: 992px) {
     .intro-card {
         flex: 1 1 calc(50% - 40px); /* 2 cards per row on medium screens */
