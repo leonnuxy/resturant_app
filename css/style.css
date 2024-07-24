@@ -58,11 +58,12 @@ main {
 }
 
 .card {
-    background: #2b2b2b;
+    background: #827e7e55;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
     margin: 0 10px; /* To provide spacing between cards */
+    flex: 1 1 calc(25% - 40px); /* 4 cards per row with 20px gap */
+    box-sizing: border-box;
 }
 
 /* Specific widths for each card */
