@@ -51,9 +51,9 @@ main {
 /* Container for about-me, education, and skills cards */
 .card-container {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin-bottom: 20px;
-    background: #1f1f1f;
+    /* background: #1f1f1f; */
     color: #e0e0e0;
 }
 
