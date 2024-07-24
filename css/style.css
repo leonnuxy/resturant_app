@@ -66,15 +66,7 @@ main {
     box-sizing: border-box;
 }
 
-/* Specific widths for each card */
-.about-me-card,
-.skills-card {
-    width: 45%; /* Reduced width to balance the larger education card */
-}
 
-.education-card {
-    width: 30%; /* 50% less than about-me-card and skills-card */
-}
 
 @media (max-width: 768px) {
     .card-container {
