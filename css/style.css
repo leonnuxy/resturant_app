@@ -76,18 +76,10 @@ main {
 .intro-card p, .intro-card ul, .intro-card li {
     font-size: 1em;
     color: #e0e0e0;
-    margin-bottom: 15px;
-    list-style-type: none;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
     margin-bottom: 10px;
     color: #e0e0e0;
+    list-style-type: none;
+    padding: 0;
 }
 
 /* Responsive design */
