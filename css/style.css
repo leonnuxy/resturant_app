@@ -80,6 +80,16 @@ main {
     list-style-type: none;
 }
 
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    color: #e0e0e0;
+}
+
 /* Responsive design */
 @media (max-width: 992px) {
     .intro-card {
