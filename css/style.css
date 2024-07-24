@@ -79,7 +79,7 @@ main {
     margin-bottom: 10px;
     color: #e0e0e0;
     list-style-type: none;
-    padding: 0;
+    padding: initial;
 }
 
 /* Responsive design */
