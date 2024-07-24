@@ -66,16 +66,25 @@ main {
     box-sizing: border-box;
 }
 
+/* Specific widths for each card */
+/* .about-me-card,
+.skills-card {
+    width: 45%; 
+} */
 
+/* .education-card {
+    width: 30%;
+} */
+
+@media (max-width: 992px) {
+    .card-container {
+        flex: 1 1 calc(50% - 40px); /* 2 cards per row on medium screens */
+    }
+}
 
 @media (max-width: 768px) {
-    .card-container {
-        flex-direction: column;
-    }
-
     .card {
-        width: 80%;
-        margin-bottom: 20px;
+        flex: 1 1 100%; /* 1 card per row on small screens */
     }
 }
 
